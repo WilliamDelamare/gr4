@@ -1,0 +1,10 @@
+h1 {
+    color: blue;
+    text-align: center;
+    border-bottom: 2px solid black;
+    box-shadow: 2px 2px 5px grey;
+}
+
+p {
+    color: red;
+}
