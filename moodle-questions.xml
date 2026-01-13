@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>Heading color</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[In <code>css/css.css</code>, what text color is applied to the <code>&lt;h1&gt;</code> element?]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[The <code>h1</code> selector sets <code>color: blue;</code>.]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Blue]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct: the CSS sets <code>color: blue;</code>.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Red]]></text>
+      <feedback format="html">
+        <text><![CDATA[Incorrect. Red is used for paragraphs, not the heading.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Black]]></text>
+      <feedback format="html">
+        <text><![CDATA[Incorrect. A black border is present, but the text color is blue.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[Green]]></text>
+      <feedback format="html">
+        <text><![CDATA[Incorrect. Green is not applied to the heading in the stylesheet.]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>Paragraph styling</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[According to <code>css/css.css</code>, which rule is applied to the <code>&lt;p&gt;</code> elements in <code>index.html</code>?]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[Paragraphs have their text colored red via <code>p { color: red; }</code>.]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Their text color is set to red.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Correct: the <code>p</code> selector sets <code>color: red;</code>.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[They are centered with <code>text-align: center;</code>.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Incorrect. Only the heading uses center alignment.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[They include a box shadow.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Incorrect. The box shadow is applied to the heading, not paragraphs.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[They have a blue underline.]]></text>
+      <feedback format="html">
+        <text><![CDATA[Incorrect. No underline is defined for the paragraphs.]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>
